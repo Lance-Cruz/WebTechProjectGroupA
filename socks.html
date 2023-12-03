@@ -1,23 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Socks</title>
+    <title>Main Page</title>
 
-    <link rel="stylesheet" href="Socks.css">
+    <link rel="stylesheet" href="socks.css">
 </head>
 <body>
-    <h1>Socks</h1>
 
-    <table>
-        <tr>
-            <td>Socks</td>
-            <td>info</td>
-        </tr>
-        <tr>
-            <td>Image</td>
-            <td>Price</td>
-        </tr>
-    </table>
+    <header>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+
+          <li class="login"><a href="#login">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+      <div id="home">
+        <h1>Welcome to my Product Page</h1>
+      </div>
+
+      <div class="product-container">
+        <div class="product-details">
+            <div class="product-info">
+                <div class="product-title">Your Product Title</div>
+                <div class="product-price">$99.99</div>
+                <div class="color-options">
+                    <label for="color">Color:</label>
+                    <select id="color">
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                    </select>
+                </div>
+                <div class="select-amount">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+      <p>&copy; All rights reserved.</p>
+    </footer>
+
+    <script src="Socks.js"></script>
     
 </body>
 </html>
