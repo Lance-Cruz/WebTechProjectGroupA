@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gear Bag</title>
+
+    <link rel="stylesheet" href="gearbag.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>            
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contacts">Contact</a></li>
+
+        <li class="login"><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="images/Bag1.png" alt="Gearbag1">
+    </div>
+    <div class="options">
+      <h2>Clonbur Bedford Holdall Bag</h2>
+      <h3> €40.00 </h3>
+        <form>
+          <label>Size</label><br>
+          <select>
+            <option value="" disabled selected hidden>Choose an option</option>
+            <option value="22">22 inch</option>
+            <option value="25">25 inch</option>
+          </select>
+
+          <br><label>Quantity</label><br>
+          <button type="button" class="minus">-</button>
+          <input type="text" class="qty" value="1">
+          <button type="button" class="plus">+</button>
+
+          <hr>
+
+          <label>Personaltions</label>
+          <input type="checkbox" id="myCheck">
+
+          <p>
+            <label for="initials">Initials on Top Panel + €6.00</label><br>
+            <input type="text" class="initials" id="initials" name="initials" maxlength="4"><br>
+            <label>Maximum 4 characters</label>
+          </p>
+          
+          <input type="submit" onclick="alert('The item has been purchased.')" value="Purchase">
+        </form>
+    </div>
+
+  </div>
+
+  <div class="container2">
+    <div class="description">
+      <div class="description-header">
+        <h2>Description</h2>
+      </div>
+      <div class="description-content">
+        <div class="description-text">
+          <p>The Cumann Peile Naomh Padraig Bedford holdall bag includes twin carry handles & a padded shoulder strap for added comfort. 
+          Made from a durable, wipe-clean fabric with spacious compartments. This versatile sports bags can be used as a kit bag, 
+          for carry-on luggage or as a weekend bag.</p>
+        </div>
+          <div class="description-list">
+            <ul>
+                <li>100% polyester</li>
+                <li>2 side zip pockets</li>
+                <li>Padded detachable shoulder strap</li>
+                <li>Carry handles with Velcro fastener</li>
+                <li>O'Neills branding</li>
+                <li>22” bag dimensions: 22 x 11.5 x 13 inches</li>
+                <li>25” bag dimensions: 25 x 12.5 x 13.75 inches</li>
+                <li>Colours: Marl Royal / Marine / White</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy All rights reserved.
+  </footer>
+
+</body>
+</html>
