@@ -1,0 +1,208 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px; 
+} 
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center; 
+}
+
+/* Navigation Bar */
+
+.nav-links li{
+    display: inline;
+    margin-right: 20px;
+    border-left: 2px white solid;
+    border-right: 2px white solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-links .login{
+    float: right;
+}
+    
+.nav-links a{
+    color: white;    
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover{
+    color: white;
+    border-bottom: 2px white solid;
+    transition: 0.3s ease;
+    font-size: large;
+    font-weight: bold;
+}
+
+/*Container 1*/
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.container:hover{
+    box-shadow: 0 4px 8px whitesmoke;
+}
+
+/* Images - Left S  ide */
+
+.product{
+    width: 50%;
+    padding: 20px;
+    margin-right: 2.5%;
+    align-items: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px lightgray;
+}
+
+/* Options - Right Side*/
+
+.options {
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: large;
+}
+
+.options select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+    appearance: none;
+}
+
+.options label{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.qty {
+    width: 5%;
+    padding: 5px;
+}
+
+.minus,
+.plus{
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: grey;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.minus:hover,
+.plus:hover{
+    background-color: #5d5d5d;
+}
+
+.initials {
+    width: 25%;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.options input[type="text"].initials {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.options input[type="submit"]{
+    background-color: green;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.options input[type="submit"]:hover{
+    background-color: #4acf50;
+}
+
+/* Description Section Styling*/
+
+.container2 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.container2:hover{
+    box-shadow: 0 4px 8px cyan;
+    width: 82.5%;
+}
+
+.description-header {
+    padding: 20px;
+    font-size: 14px;
+    border-bottom: 2px solid black;
+}
+
+.description-content {
+    display: flex;
+}
+
+.description-text {
+    max-width: 35%;
+    padding-right: 20px;
+    padding-left: 13%;
+    line-height: 30px;
+}
+
+.description-list {
+    max-width: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 2px;
+    line-height: 30px;
+}
+
+.description-list ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
