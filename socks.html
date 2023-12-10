@@ -24,15 +24,23 @@
 
       <div class="product-container">
         <div class="product-details">
+          <div class="image-container">
+            <img src="/Socks_Images/image1.jpg" alt="Black sock">
+            <img src="/Socks_Images/image2.png" alt="Green sock">
+            <img src="/Socks_Images/image3.jpg" alt="Red sock">
+            <img src="/Socks_Images/image4.jpg" alt="Yellow sock">
+            </div>
             <div class="product-info">
-                <div class="product-title">Your Product Title</div>
-                <div class="product-price">$99.99</div>
+                <div class="product-title">Sports socks (4-pair)</div>
+
+                <div class="product-price">€24.99</div>
                 <div class="color-options">
                     <label for="color">Color:</label>
                     <select id="color">
-                        <option value="red">Red</option>
-                        <option value="blue">Blue</option>
+                        <option value="black">Black</option>
                         <option value="green">Green</option>
+                        <option value="red">Red</option>
+                        <option value="yellow">Yellow</option>
                     </select>
                 </div>
                 <div class="select-amount">
@@ -41,19 +49,26 @@
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
-                        <!-- Add more options as needed -->
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
                     </select>
                 </div>
-                <button>Add to Cart</button>
+                <button onclick="cartCall()">Add to Cart</button><br>
+                <h3>Desription</h3>
+                <p>Our socks are made from 100% sustainable sources. Our goal in making these socks is to create as low of a carbon footprint to combat climate change.
+                Our producers of the materials used in our socks get above average salary to prevent harsh working conditions, also we support animal rights and that they
+                should live in warm, clean environments; so they live a happy life.
+                </p>
             </div>
         </div>
     </div>
-    
     <footer>
       <p>&copy; All rights reserved.</p>
     </footer>
-
     <script src="Socks.js"></script>
-    
 </body>
 </html>
