@@ -35,18 +35,18 @@
           </select>
 
           <br><label>Quantity</label><br>
-          <button type="button" class="minus">-</button>
-          <input type="text" class="qty" value="1">
-          <button type="button" class="plus">+</button>
+          <button type="button" class="minus" onclick="minus()">-</button>
+          <input type="text" class="qty" id="qty" value="1">
+          <button type="button" class="plus" onclick="plus()">+</button>
 
           <hr>
 
-          <label>Personaltions</label>
-          <input type="checkbox" id="myCheck">
+          <label>Personalisation</label>
+          <input type="checkbox" id="myCheck" onclick="reveal()">
 
-          <p>
+          <p id="reveal" style="display:none">
             <label for="initials">Initials on Top Panel + €6.00</label><br>
-            <input type="text" class="initials" id="initials" name="initials" maxlength="4"><br>
+            <input type="text" class="initials" name="initials" maxlength="4"><br>
             <label>Maximum 4 characters</label>
           </p>
           
@@ -84,8 +84,16 @@
   </div>
 
   <footer>
+    <p id="contacts">
+      <h2>Contact Us</h2>
+      Email : G00428876@atu.ie <br><br>
+      Phone : 123456789<br>
+    </p>
+    <hr>
     &copy All rights reserved.
   </footer>
 
+
+  <script src="gearbag.js"></script>
 </body>
 </html>
