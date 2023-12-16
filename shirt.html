@@ -15,74 +15,81 @@
   <div class="container">
     <div class="navbar">
         <div class="logo">
-            <img src="Images/logo.png" width="125px">
+            <img src="shirt_images/logo.png" width="125px">
         </div>
         <nav>
             <ul>
-             <li><a href="shirt.html" target="_self">Home</a></li>
-             <li><a href="account.html" target="_self">Account</a></li>
+             <li><a href="index.html" target="_self">Home</a></li>
             </ul>
         </nav> 
-        <img src="Images/cart.png" width="30px" height="30px">
+        <img src="shirt_images/cart.png" width="30px" height="30px">
      </div>
      <div class="row">
          <div class="col-2">
              <h1>Pick Your Favorite Team!</h1>
              <p>Do Not Miss Out On Our Prices, The Best In The Market.</p>
-                <a href="" class="btn">Explore Now &#8594;</a>
+               <button> <a href="index.html" class="btn">Explore Now &#8594;</a> </button>
           </div>
          <div class="col-2">
-            <img src="Images/image1.png">
+            <img src="shirt_images/image1.png">
          </div>
      </div>
   </div>
 </div>  
 
-<!----- featured categories ----->
+
+<center><h1><u>Featured Products</u></h1></center>
 <div class="categories">
     <div class="small-container">
         <div class="row">
             <div class="col-3">
-                <img src="Images/livshirt.png">
+                <img src="shirt_images/livshirt.png">
             </div>
             <div class="col-3">
-                <img src="Images/chelshirt.jpg">
+                <img src="shirt_images/manshirt.jpg" >
             </div>
             <div class="col-3">
-                <img src="Images/manshirt.jpg">
+                <img src="shirt_images/chelshirt.jpg">
             </div>
-    </div>
-   
+            <div class="col-3">
+                <h1>Any Shirt For Only</h1>
+                <h3>£80.00</h3>
+                
+                <select>
+                    <option>Select a Team</option>
+                    <option>Liverpool Home-Shirt</option>
+                    <option>Manchester United Home-Shirt</option>
+                    <option>Chelsea Away-Shirt</option>
+                </select>
+                
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                
+                <input type="text" class="qty" id="qty" value="1">
+                <button onclick="cartCall()">Add to Cart</button><br>
+                 
+                <h3>Product Details</h3>
+                <p> Moisture-absorbing AEROREADY and mesh panels make it a comfortable choice for passionate supporters. Made with 100% recycled materials, this product represents just one of our solutions to help end plastic waste, Our Shirts Also have a quick-drying technology to give you a game-ready look inspired by your favourite team.</p>
+
+            </div>
+            
+            
     </div>
 </div>
-<!----- featured Products ----->
-<div class="small-container">
-    <h2 class="title">Featured Products</h2>
-    <div class="row">
-        <div class="col-4">
-            <img src="Images/product1.jpg">
-            <h4>Bruno Fernandes Home-Shirt</h4>
-            <p>£75.00</p>
-        </div>
-        <div class="col-4">
-            <img src="Images/product2.jpg">
-            <h4>Casemiro Home-Shirt</h4>
-            <p>£80.00</p>
-        </div>
-        <div class="col-4">
-            <img src="Images/product4.jpg">
-            <h4>Cole Palmer Away-Shirt</h4>
-            <p>£75.00</p>
-        </div>
-        <div class="col-4">
-            <img src="Images/product3.jpg">
-            <h4>Enzo Away-Shirt</h4>
-            <p>£90.00</p>
-        </div>
-    </div>
-</div>
+
+<footer>
+    <p>Contact options</p>
+    <p>E: g00429041@atu.ie</p>
+    <p>&copy; All rights reserved.</p>
+  </footer>
 
 
-
+  <script src="shirt.js"></script>
 </body>
 </html>
