@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GroupAProject</title>
+    <link rel="stylesheet" href="short.css">
+    <script src="shorts.js" defer></script>
+</head>
+
+<body>
+    <div class="Top">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#Products">Products</a>
+            <a href="#Cart">Cart</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </div>
+
+    <section id="Home">
+        <header>
+            <h1>GroupAProject</h1>
+        </header>
+
+        <div class="box">
+            
+            <div class="product">
+                <img src="/short_images/Shorts.jpg" alt="Sport Shorts">
+                <h2>Sport Shorts</h2>
+                <p class="price">$34.99</p>
+                <p>High-quality sport shorts for your workouts. Stay comfortable and stylish during your fitness routine.</p>
+                <button onclick="addToCart('Sport Shorts', 34.99)">Add to Cart</button>
+            </div>
+
+            
+            <div class="product">
+                <img src="/short_images/Casual shorts.jpg" alt="Casual Shorts">
+                <h2>Casual Shorts</h2>
+                <p class="price">$29.99</p>
+                <p>Relax in these comfortable casual shorts. Perfect for a laid-back day or a casual outing with friends.</p>
+                <button onclick="addToCart('Casual Shorts', 29.99)">Add to Cart</button>
+            </div>
+
+            
+            <div class="product">
+                <img src="/short_images/running shorts.jpg" alt="Running Shorts">
+                <h2>Running Shorts</h2>
+                <p class="price">$39.99</p>
+                <p>Optimize your runs with these lightweight and breathable running shorts. Ideal for both casual jogs and intense training sessions.</p>
+                <button onclick="addToCart('Running Shorts', 39.99)">Add to Cart</button>
+            </div>
+
+            
+            <div class="product">
+                <img src="/short_images/Running shorts women.jpg" alt="Running Shorts Women">
+                <h2>Running Shorts Women</h2>
+                <p class="price">$49.99</p>
+                <p>Optimize your runs with these lightweight and breathable running shorts. Ideal for both casual jogs and intense training sessions.</p>
+                <button onclick="addToCart('Another Shorts', 49.99)">Add to Cart</button>
+            </div>
+
+           
+            <div class="product">
+                <img src="/short_images/lightweight shorts.jpg" alt="New Shorts">
+                <h2>Lightweight Shorts</h2>
+                <p class="price">$59.99</p>
+                <p>New and improved shorts for your collection.</p>
+                <button onclick="addToCart('New Shorts', 59.99)">Add to Cart</button>
+            </div>
+
+           
+            <div class="product">
+                <img src="/short_images/swimming shorts.jpg" alt="Swimming Shorts">
+                <h2>Swimming Shorts</h2>
+                <p class="price">$69.99</p>
+                <p>Stay fresh with these stylish shorts.</p>
+                <button onclick="addToCart('Swimming Shorts', 69.99)">Add to Cart</button>
+            </div>
+
+           
+            <div class="product">
+                <img src="/short_images/basketabll shorts.jpg" alt="Basketball Shorts">
+                <h2>Basketball Shorts</h2>
+                <p class="price">$69.99</p>
+                <p>Perfect for the basketball court. Stay comfortable and agile during your games.</p>
+                <button onclick="addToCart('Basketball Shorts', 69.99)">Add to Cart</button>
+            </div>
+
+            
+            <div class="product">
+                <img src="/short_images/football shorts.jpg" alt="Football Shorts">
+                <h2>Football Shorts</h2>
+                <p class="price">$69.99</p>
+                <p>Designed for football enthusiasts. Stay comfortable on the field.</p>
+                <button onclick="addToCart('Football Shorts', 69.99)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="Products">
+        
+    </section>
+
+    <section id="Cart">
+        <div class="cart">
+            <h2>Your Shopping Cart</h2>
+            <div class="cart-items" id="cartItems">
+                
+            </div>
+            <div class="cart-total" id="cartTotal">
+                Total: $0.00
+            </div>
+            <button class="purchase-btn" onclick="purchaseCart()">Purchase Now</button>
+            <div class="clear-cart">
+                <button onclick="clearCart()">Clear Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <footer>
+            <p>Contact us at: support@GroupAProject.com</p>
+            <p>Follow us on: <a href="#">Facebook</a> | <a href="#">Twitter</a></p>
+        </footer>
+    </section>
+
+</body>
+
+</html>
+
